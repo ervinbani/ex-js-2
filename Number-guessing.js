@@ -7,7 +7,7 @@ var input=0 ;
 while ( input != randomNumber) {
 
 
-  input = prompt("inserisci un numero!!");
+  input = prompt("Inserisci un numero!!");
   console.log(input);
 
   if ((input < 0)||(input > 100)) {
@@ -26,4 +26,4 @@ while ( input != randomNumber) {
 
 }
 }
-document.write("Complimenti numero =" + input);
+document.write("Complimenti numero inserit corrisponde =" + input);
